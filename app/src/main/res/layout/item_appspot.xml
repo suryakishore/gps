@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/fiveDp"
+        android:paddingBottom="@dimen/fiveDp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSerachItem"
+            android:layout_width="@dimen/zeroDp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twentyDp"
+            android:layout_marginLeft="@dimen/twentyDp"
+            android:layout_marginTop="@dimen/fiveDp"
+            android:layout_marginEnd="@dimen/twentyDp"
+            android:layout_marginRight="@dimen/twentyDp"
+            app:cardCornerRadius="@dimen/zeroDp"
+            app:cardElevation="@dimen/fiveDp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/tenDp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvEmailIdTxt"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/fiveDp"
+                    android:paddingLeft="@dimen/fiveDp"
+                    android:text="@string/emailId"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/eighteenSp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvEmailId"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/fiveDp"
+                    android:paddingLeft="@dimen/fiveDp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/eighteenSp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvEmailIdTxt"
+                    tools:text="@string/app_name" />
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivAppSpotItem"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="@dimen/oneFiftyDp"
+                    android:background="@drawable/surya"
+                    android:scaleType="fitXY"
+                    android:layout_marginTop="@dimen/fiveDp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvEmailId" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvFirstName"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emailId"
+                    android:layout_marginStart="@dimen/tenDp"
+                    android:layout_marginLeft="@dimen/tenDp"
+                    android:layout_marginTop="@dimen/fiveDp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/eighteenSp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivAppSpotItem" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvLastName"
+                    android:layout_width="@dimen/zeroDp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fiveDp"
+                    android:layout_marginEnd="@dimen/tenDp"
+                    android:layout_marginRight="@dimen/tenDp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/eighteenSp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivAppSpotItem"
+                    tools:text="@string/app_name" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

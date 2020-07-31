@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login.LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twentyDp"
+            android:layout_marginLeft="@dimen/twentyDp"
+            android:layout_marginTop="@dimen/fivtyDp"
+            android:layout_marginEnd="@dimen/twentyDp"
+            android:layout_marginRight="@dimen/twentyDp"
+            android:gravity="start"
+            android:hint="@string/enterEmailId"
+            android:inputType="textEmailAddress"
+            android:paddingTop="@dimen/tenDp"
+            android:paddingBottom="@dimen/tenDp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twentyDp"
+            android:layout_marginEnd="@dimen/twentyDp"
+            android:layout_marginBottom="@dimen/tenDp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="@dimen/tenDp"
+            android:text="@string/login"
+            android:textColor="@color/coorWhite"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

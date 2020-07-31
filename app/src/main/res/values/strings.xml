@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GpsApp</string>
+    <string name="app_spot">appspot</string>
+    <string name="emailId">Email Id :</string>
+    <string name="id">Id :</string>
+    <string name="farm">Farm :</string>
+    <string name="enterEmailId">Please enter your Email Id</string>
+    <string name="login">Login</string>
+    <string name="enterValidEmailId">Please enter valid Email Id</string>
+
+</resources>

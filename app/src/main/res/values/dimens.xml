@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="zeroDp">0dp</dimen>
+    <dimen name="twoDp">2dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+    <dimen name="twentyDp">20dp</dimen>
+    <dimen name="fifteenSp">15sp</dimen>
+    <dimen name="twoHundredDp">200dp</dimen>
+    <dimen name="fiveDp">5dp</dimen>
+    <dimen name="fivtyDp">50dp</dimen>
+    <dimen name="sixtyFourDp">64dp</dimen>
+    <dimen name="eighteenSp">18sp</dimen>
+    <dimen name="oneFiftyDp">150dp</dimen>
+
+</resources>
