@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
     private fun subscribeAppSpotData() {
         viewModel.onAppSpotData().observe(this, Observer {
             if (it != null) {
+
                 binding.pgLoadData.visibility = View.GONE
                 mAppSpotData.addAll(it)
                 adapter.notifyDataSetChanged()
